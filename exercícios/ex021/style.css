@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: right;
+}
+header > h1 {
+    text-align: center;
+    background-color: #d3d3d38c;
+    margin: auto;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.459) 4px 7px 4px 0px;
+    border-radius: 11px 0px 11px 0px;
+}
+article {
+    background-color: lightgray;
+    padding: 5px;
+
+}
+article > aside {
+    background-color: rgb(139, 139, 139);
+    text-align: right;
+    padding: 2px 30px;
+    color: black;
+}
+article > aside > p > a {
+    color: black;
+    text-decoration: none;
+}
+article > aside > p > a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    font-weight: 800;
+}
+footer > p > a > span:hover {
+    text-decoration: underline;
+}
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+footer > p {
+    margin: 0px;
+}
+nav {
+    background-color: rgba(128, 128, 128, 0.658);
+    padding: 5px 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.356) 1px 4px 20px 3px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    margin: 40px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+article > img {
+    width: 500px;
+}
+div#bola {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 50%;
+}
