@@ -1,4 +1,4 @@
-theme: minima
+theme: minimal
 # html-css
  Curso em HTML5 E CSS3
 
